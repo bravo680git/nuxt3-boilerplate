@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "allowJs": true,
+    "types": ["@nuxt/types", "@nuxtjs/i18n", "@pinia/nuxt"]
+  },
+  "vueCompilerOptions": {
+    "plugins": ["@volar/vue-language-plugin-pug"]
+  },
+  "extends": "./.nuxt/tsconfig.json"
+}

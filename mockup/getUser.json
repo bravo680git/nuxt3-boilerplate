@@ -1,0 +1,34 @@
+{
+  "userList": [
+    {
+      "userId": "1",
+      "userName": "csvadmin",
+      "userNickname": "csvadmin",
+      "mailAddress": "cubevn@vn-cubesystem.com"
+    },
+    {
+      "userId": "2",
+      "userName": "csvuser",
+      "userNickname": "csvuser",
+      "mailAddress": "cubevn2@vn-cubesystem.com"
+    },
+    {
+      "userId": "3",
+      "userName": "csvuser1",
+      "userNickname": "csvuser1",
+      "mailAddress": "cubevn3@vn-cubesystem.com"
+    },
+    {
+      "userId": "4",
+      "userName": "csvuser2",
+      "userNickname": "csvuser2",
+      "mailAddress": "cubevn4@vn-cubesystem.com"
+    },
+    {
+      "userId": "5",
+      "userName": "csvuser3",
+      "userNickname": "csvuser3",
+      "mailAddress": "cubevn5@vn-cubesystem.com"
+    }
+  ]
+}

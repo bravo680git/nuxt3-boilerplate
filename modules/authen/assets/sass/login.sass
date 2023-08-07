@@ -1,0 +1,137 @@
+@import './variables'
+
+#login-page
+  background: $color-white
+  min-height: 100vh
+
+  #logo
+    text-align: center
+    margin-bottom: 100px
+    p
+      color: $color-black-3
+      font-size: 1.4em
+
+  .welcome-block
+    margin-top: 70px
+    .text-welcome
+      font-size: 3em
+      font-weight: bold
+      width: 500px
+
+    .text-sub-welcome
+      font-size: 1.2em
+      font-weight: normal
+      color: $color-black-1
+
+  .copyright
+    position: absolute
+    bottom: 20px
+    left: 0
+    text-align: center
+    width: 100%
+    color: $color-black-2
+
+  #about
+    position: absolute
+    top: 50px
+    right: 100px
+    background: $color-primary-4
+    padding: 5px 12px 6px 10px
+    border-radius: 5px
+    color: $color-primary-3
+    z-index: 2
+
+    &:hover
+      background: $color-primary-5
+
+    a
+      display: inline-block
+      width: 100%
+      height: 100%
+
+      i
+        border: 1px solid $color-primary-3
+        color: $color-primary-3
+        border-radius: 50%
+        height: 20px
+        width: 20px
+        line-height: 18px
+        text-align: center
+        font-size: 12px
+        margin-right: 5px
+
+      i
+        position: relative
+        top: -1px
+  #form-login
+    height: 100vh
+
+    form
+      width: 520px
+      position: absolute
+      top: calc(40% - 250px)
+      left: 50%
+      transform: translateX(-50%)
+      padding: 40px 50px 20px 50px
+      background: $color-white
+      border-radius: 24px
+      color: $color-black-2
+      max-width: 100%
+
+      .error
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        width: 100%
+        top: 8px
+
+      .label
+        font-size: 40px
+        font-weight: normal
+
+
+      label
+        color: $color-black-3
+
+
+      .input-block
+        position: relative
+
+        img
+          position: absolute
+          top: 50%
+          left: 10px
+          transform: translateY(-50%)
+
+        input
+          box-sizing: border-box
+          line-height: 48px
+          height: 48px
+          border-radius: 10px
+          border: 2px solid $color-black-2
+          text-align: center
+        
+        .word-limit
+          position: absolute
+          top: 50%
+          right: 8px
+          transform: translateY(-50%)
+          color: #ccc
+          font-size: 12px
+
+
+
+
+      .btn-submit
+        background: $color-black-2
+        color: $color-white
+        line-height: 48px
+        box-shadow: 0px 0px 16px 2px $color-black-5
+        border-radius: 10px
+        transition: 0.3s
+        width: 100%
+        margin-top: 40px
+
+        &:hover
+          background: $color-black-4
+          box-shadow: 0px 0px 5px 2px $color-black-5

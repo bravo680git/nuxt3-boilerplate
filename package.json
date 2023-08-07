@@ -1,0 +1,58 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev --port 8000",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare",
+    "lint": "eslint . --ext .ts,.vue",
+    "mockup": "node mockup/mockup.ts"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@mdi/font": "^7.2.96",
+    "@mdi/js": "^7.2.96",
+    "@nuxt/types": "^2.17.1",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/eslint-module": "^4.0.2",
+    "@nuxtjs/i18n": "^8.0.0-beta.10",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "@volar/vue-language-plugin-pug": "latest",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.10.0",
+    "node-sass": "^8.0.0",
+    "nuxt": "3.3.2",
+    "nuxt-lodash": "^2.4.1",
+    "pinia": "^2.0.33",
+    "prettier": "^2.8.7",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "typescript": "^5.0.2",
+    "vite-plugin-pug": "^0.3.2",
+    "vuetify": "^3.1.12"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@pinia/nuxt": "^0.4.7",
+    "@vueuse/core": "^9.13.0",
+    "animate.css": "^4.1.1",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "mitt": "^3.0.0",
+    "pug": "^3.0.2"
+  }
+}
